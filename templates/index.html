@@ -9,7 +9,7 @@
 <body>
 <div class="container">
     <h1>📝 My Task List</h1>
-
+    <a href="{{ url_for('logout') }}" class="btn btn-delete">Logout</a>
     <a href="{{ url_for('add') }}" class="btn btn-add"> ➕ Add New Task</a>
 
     <div class="task-grid">
